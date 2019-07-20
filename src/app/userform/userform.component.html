@@ -1,0 +1,13 @@
+<div class="title">
+    <h3>
+      Welcome to {{ user_form_title }} !
+    </h3>
+</div>  
+<div class="user_details">
+    <h4>Name:</h4><input type="text" [(ngModel)] = "userName$" name="userName" placeholder="enter your name">
+    <h4>Current Post:</h4><input type="text" [(ngModel)] = "userPost$" name="userPost" placeholder="current designation">
+</div>
+<div class="show_details">
+    <h4>Name: {{userName$}}</h4>
+    <h4>Current Post: {{userPost$}}</h4>
+</div>

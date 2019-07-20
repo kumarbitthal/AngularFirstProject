@@ -1,0 +1,15 @@
+.title{
+font-style: italic;
+font-size: 14px;
+color: green;
+}
+.user_details{
+    font-style: italic;
+    font-size: 12px;
+    color: blue;
+}
+.show_details{
+    font-style: bold;
+    font-size: 12px;
+    color: red;
+}
